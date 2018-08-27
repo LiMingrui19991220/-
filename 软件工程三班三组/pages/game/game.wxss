@@ -1,0 +1,23 @@
+/* pages/game/game.wxss */
+.grid {
+    display: flex;
+}
+.grid_cell {
+    flex: 1;
+    background: rgb(10, 10, 10);
+    display: flex;
+}
+.card {
+    background: rgba(102, 102, 102, 0.301);
+    flex: 1;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.open {
+    background: #ddd;
+}
+button {
+    margin: 0 15px;
+}
